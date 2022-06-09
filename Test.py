@@ -1,14 +1,8 @@
 import Fibonacci
 
 
-def testFibonacciLetra(n='x'):
-    serie = []
-    assert Fibonacci.CalcularSerie(n) == serie
-
-
 def testFibonacci0(n=0):
-    serie = []
-    assert Fibonacci.CalcularSerie(n) == serie
+    assert Fibonacci.CalcularSerie(n) is None
 
 
 def testFibonacci1(n=1):
