@@ -1,0 +1,2 @@
+def CalcularSerie():
+    return None
